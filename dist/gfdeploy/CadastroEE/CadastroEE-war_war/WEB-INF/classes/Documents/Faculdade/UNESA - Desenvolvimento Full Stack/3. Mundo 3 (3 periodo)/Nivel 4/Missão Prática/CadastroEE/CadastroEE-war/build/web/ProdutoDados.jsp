@@ -22,7 +22,7 @@
             String acao = produto != null ? "alterar" : "incluir";
         %>
         
-        <form class="form" action="ServletProdutoFC" method="post">
+        <form action="ServletProdutoFC" method="post">
             <input type="hidden" name="acao" value="<%= acao %>">
             <%
                 if (acao.equals("alterar")) {
@@ -30,21 +30,21 @@
                 }
             %>
             <div class="mb-3">
-                <label class="form-label">Nome:</label>
-                <input class="form-control" type="text" name="nome" value="<%= acao == "alterar" ? produto.getNome() : "" %>" required>
+                <label>Nome:</label>
+                <input type="text" name="nome" value="<%= acao == "alterar" ? produto.getNome() : "" %>" required>
             </div>
             
             <div class="mb-3">
-                <label class="form-label">Quantidade:</label>
-                <input class="form-control" type="text" name="quantidade" value="<%= acao == "alterar" ? produto.getQuantidade() : "" %>" required>
+                <label>Quantidade:</label>
+                <input type="text" name="quantidade" value="<%= acao == "alterar" ? produto.getQuantidade() : "" %>" required>
             </div>
             
             <div class="mb-3">
-                <label class="form-label">Preço de venda:</label>
-                <input class="form-control" type="text" name="preco" value="<%= acao == "alterar" ? produto.getPrecoVenda() : "" %>" required>
+                <label>Preço de venda:</label>
+                <input type="text" name="preco" value="<%= acao == "alterar" ? produto.getPrecoVenda() : "" %>" required>
             </div>
             
-            <button class="btn btn-primary" type="submit"><%= acao == "alterar" ? "Alterar Produto" : "Incluir Produto" %></button>
+            <button type="submit"><%= acao == "alterar" ? "Alterar Produto" : "Incluir Produto" %></button>
         </form>
     </body>
 </html>
