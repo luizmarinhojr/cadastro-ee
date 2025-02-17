@@ -44,7 +44,7 @@
                 <input class="form-control" type="text" name="preco" value="<%= acao == "alterar" ? produto.getPrecoVenda() : "" %>" required>
             </div>
             
-            <button type="submit"><%= acao == "alterar" ? "Alterar Produto" : "Incluir Produto" %></button>
+            <button class="btn btn-primary" type="submit"><%= acao == "alterar" ? "Alterar Produto" : "Incluir Produto" %></button>
         </form>
     </body>
 </html>
