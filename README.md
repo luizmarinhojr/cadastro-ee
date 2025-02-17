@@ -25,11 +25,8 @@ O relatório dos Procedimentos pode ser encontrado através desse próprio repos
 
 ## Demonstração por imagens
 
-![image](https://github.com/user-attachments/assets/f6bd08bc-c17a-49cd-9cef-3b09da9a4f5a)
+![pr proc](https://github.com/user-attachments/assets/2d1ae2ad-2ebb-46aa-9536-759e1e632805)
 
-![image](https://github.com/user-attachments/assets/00c27529-bbdb-4d93-ae29-cb86e22e7809)
-
-![image](https://github.com/user-attachments/assets/6c3ddeb2-690e-47dc-b64e-4d7ea8d8eef3)
 
 <br>
 <br>
